@@ -17,7 +17,13 @@ def send_bark(title, content):
         content_enc = urllib.parse.quote(content)
         bark_url = f"https://api.day.app/{BARK_API_KEY}/{title_enc}/{content_enc}/推送铃声?sound=chime"
         requests.get(bark_url, timeout=3)
+        time.sleep(4)
         requests.get(bark_url, timeout=3)
+        time.sleep(4)
+        requests.get(bark_url, timeout=3)
+        time.sleep(4)
+        requests.get(bark_url, timeout=3)
+        time.sleep(4)
         requests.get(bark_url, timeout=3)
     except:
         pass
