@@ -6,7 +6,7 @@ from requests.exceptions import RequestException
 # ===================== 配置 =====================
 API_URL = "http://konk.cc/customer/account/unread_conversation_list?token=bTFTY2Gt1kxabwAeRt3M3E18lTpyyrOk&limit=50"
 BARK_API_KEY = "xAeazNMHEvvUCEq3LsZyqa"
-INTERVAL = 1
+# INTERVAL = 1
 last_message_ids = {}
 # =================================================
 
@@ -102,4 +102,4 @@ if __name__ == "__main__":
             check()
         except:
             pass
-        time.sleep(INTERVAL)
+        #time.sleep(INTERVAL)
