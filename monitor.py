@@ -4,7 +4,7 @@ import json
 from requests.exceptions import RequestException
 
 # ===================== 配置 =====================
-API_URL = "http://konk.cc/customer/account/unread_conversation_list?token=SFTHh8k8ia3Ggi6clJVhWgPmClLKxyvp&limit=50"
+API_URL = "http://konk.cc/customer/account/unread_conversation_list?token=smCRUYD5tXmXkNxFrBJbCj7fLnjNBBRk&limit=50"
 BARK_API_KEY = "xAeazNMHEvvUCEq3LsZyqa"
 # INTERVAL = 1
 last_message_ids = {}
